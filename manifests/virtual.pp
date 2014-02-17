@@ -3,7 +3,7 @@ class users::virtual {
     ensure     => 'present',
     home       => '/home/simonm',
     # groups => ['root','wheel'],
-    password   => '$6$Yd1tTJ2n$lJdnqA1.uh8Ycz3s7LwudUcvFkkpKAG9ZBqaMguRtiDy.FzrkuJA6PJkew9h27fm0fgw0ehxYOkYI5LafXM5v0:16013',
+    password   => '$6$Yd1tTJ2n$lJdnqA1.uh8Ycz3s7LwudUcvFkkpKAG9ZBqaMguRtiDy.FzrkuJA6PJkew9h27fm0fgw0ehxYOkYI5LafXM5v0',
     comment    => 'Simon McCartney',
     shell      => '/bin/bash',
     managehome => true,
