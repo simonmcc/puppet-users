@@ -1,4 +1,4 @@
-class user::virtual {
+class users::virtual {
   @user { 'simonm':
     ensure     => 'present',
     home       => '/home/simonm',
